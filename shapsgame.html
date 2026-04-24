@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+h1{color:red;}
+*{
+margen:0%;
+padding:0%;}
+
+html,body{
+height:100%;
+width:100%;
+}
+#main{
+height:100%;
+width:100%;
+display:flex;
+align-items: center;
+justify-content:center;
+font-family:"gill sans";
+
+h1{font-weight:normal;}
+
+.shape{
+height:200px;
+width:200px;
+margin-left:10px;
+margin-top:10px; 
+display:flex;
+align-items: center;
+justify-content:center;
+
+border: 1px solid black;
+}
+
+#squar:hover{
+background-color: blue;}
+
+#circle{
+border-radius:50%;}
+
+#circle:hover{
+background-color: pink;
+}
+
+
+#diamond{
+rotate : 45deg;
+margin-top:20%;
+
+}
+
+#diamond:hover{
+background-color: aqua;}
+
+
+#diamond h1{
+rotate : -45deg;
+}
+
+
+</style>
+<title> Shapes game</title>
+</head>
+<body>
+<div id="main">
+<div id="box">
+<div id="squar" class="shape"><h1>1</h1></div>
+<div id="diamond" class="shape"><h1 id="h1">2</h1></div>
+</div>
+<div id="circle" class="shape"><h1>3</h1></div>
+
+
+
+</div>
+</body>
+</html>
